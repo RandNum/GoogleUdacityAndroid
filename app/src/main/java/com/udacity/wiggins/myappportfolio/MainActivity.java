@@ -26,9 +26,11 @@ public class MainActivity extends ActionBarActivity {
 
                 Toast toast = Toast.makeText(context, text, duration);
                 toast.show();
+                //from the Google API guide (http://developer.android.com/guide/topics/ui/notifiers/toasts.html)
             }
         });
 
+        /* Spotify button handler */
         Button ScoresButton = (Button) findViewById(R.id.btnScores);
         ScoresButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
@@ -38,9 +40,11 @@ public class MainActivity extends ActionBarActivity {
 
                 Toast toast = Toast.makeText(context, text, duration);
                 toast.show();
+                //from the Google API guide (http://developer.android.com/guide/topics/ui/notifiers/toasts.html)
             }
         });
 
+        /* Library button handler */
         Button LibraryButton = (Button) findViewById(R.id.btnLibrary);
         LibraryButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
@@ -50,9 +54,11 @@ public class MainActivity extends ActionBarActivity {
 
                 Toast toast = Toast.makeText(context, text, duration);
                 toast.show();
+                //from the Google API guide (http://developer.android.com/guide/topics/ui/notifiers/toasts.html)
             }
         });
 
+        /* Bigger button handler */
         Button BiggerButton = (Button) findViewById(R.id.btnBigger);
         BiggerButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
@@ -62,9 +68,11 @@ public class MainActivity extends ActionBarActivity {
 
                 Toast toast = Toast.makeText(context, text, duration);
                 toast.show();
+                //from the Google API guide (http://developer.android.com/guide/topics/ui/notifiers/toasts.html)
             }
         });
 
+        /* Reader button handler */
         Button ReaderButton = (Button) findViewById(R.id.btnReader);
         ReaderButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
@@ -74,9 +82,11 @@ public class MainActivity extends ActionBarActivity {
 
                 Toast toast = Toast.makeText(context, text, duration);
                 toast.show();
+                //from the Google API guide (http://developer.android.com/guide/topics/ui/notifiers/toasts.html)
             }
         });
 
+        /* Capstone button handler */
         Button CapstoneButton = (Button) findViewById(R.id.btnCapstone);
         CapstoneButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
@@ -86,6 +96,7 @@ public class MainActivity extends ActionBarActivity {
 
                 Toast toast = Toast.makeText(context, text, duration);
                 toast.show();
+                //from the Google API guide (http://developer.android.com/guide/topics/ui/notifiers/toasts.html)
             }
         });
 
