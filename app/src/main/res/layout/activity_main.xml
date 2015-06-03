@@ -12,61 +12,86 @@
         android:textSize="26dp"
         android:textColor="#ff241c4a"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="New Button"
-        android:id="@+id/button"
-        android:layout_marginTop="49dp"
+        android:text="SPOTIFY STREAMER"
+        android:id="@+id/btnSpotify"
         android:layout_below="@+id/textView"
         android:layout_alignRight="@+id/textView"
-        android:layout_alignEnd="@+id/textView" />
+        android:layout_alignEnd="@+id/textView"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView"
+        style="@style/mainButtons"
+        />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="New Button"
-        android:id="@+id/button2"
-        android:layout_below="@+id/button"
-        android:layout_alignLeft="@+id/button"
-        android:layout_alignStart="@+id/button" />
+        android:text="SCORES APP"
+        android:id="@+id/btnScores"
+        android:layout_below="@+id/btnSpotify"
+        android:layout_alignLeft="@+id/btnSpotify"
+        android:layout_alignStart="@+id/btnSpotify"
+        android:layout_alignRight="@+id/btnSpotify"
+        android:layout_alignEnd="@+id/btnSpotify"
+        style="@style/mainButtons"
+        />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="New Button"
-        android:id="@+id/button3"
-        android:layout_below="@+id/button2"
-        android:layout_alignLeft="@+id/button2"
-        android:layout_alignStart="@+id/button2" />
+        android:text="LIBRARY APP"
+        android:id="@+id/btnLibrary"
+        android:layout_below="@+id/btnScores"
+        android:layout_alignLeft="@+id/btnScores"
+        android:layout_alignStart="@+id/btnScores"
+        android:layout_alignRight="@+id/btnScores"
+        android:layout_alignEnd="@+id/btnScores"
+        style="@style/mainButtons"
+        />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="New Button"
-        android:id="@+id/button4"
-        android:layout_below="@+id/button3"
-        android:layout_alignLeft="@+id/button3"
-        android:layout_alignStart="@+id/button3" />
+        android:text="BUILD IT BIGGER"
+        android:id="@+id/btnBigger"
+        android:layout_below="@+id/btnLibrary"
+        android:layout_alignLeft="@+id/btnLibrary"
+        android:layout_alignStart="@+id/btnLibrary"
+        android:layout_alignRight="@+id/btnScores"
+        android:layout_alignEnd="@+id/btnScores"
+        style="@style/mainButtons"
+        />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="New Button"
-        android:id="@+id/button5"
-        android:layout_below="@+id/button4"
-        android:layout_alignLeft="@+id/button4"
-        android:layout_alignStart="@+id/button4" />
+        android:text="XYZ READER"
+        android:id="@+id/btnReader"
+        android:layout_below="@+id/btnBigger"
+        android:layout_alignLeft="@+id/btnBigger"
+        android:layout_alignStart="@+id/btnBigger"
+        android:layout_alignRight="@+id/btnBigger"
+        android:layout_alignEnd="@+id/btnBigger"
+        style="@style/mainButtons"
+        />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="New Button"
-        android:id="@+id/button6"
-        android:layout_below="@+id/button5"
-        android:layout_alignLeft="@+id/button5"
-        android:layout_alignStart="@+id/button5" />
+        android:text="CAPSTONE"
+        android:id="@+id/btnCapstone"
+        android:layout_below="@+id/btnReader"
+        android:layout_alignLeft="@+id/btnReader"
+        android:layout_alignStart="@+id/btnReader"
+        android:layout_alignRight="@+id/btnReader"
+        android:layout_alignEnd="@+id/btnReader"
+
+        style="@style/mainButtons"
+        android:background="#ffff3d63" />
 
 </RelativeLayout>
